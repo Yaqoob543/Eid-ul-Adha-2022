@@ -1,0 +1,36 @@
+    body {
+        background-image: url(/web\ bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cow>img {
+        position: absolute;
+        margin-top: 25in;
+        margin-left: 3in;
+        width: 1800px;
+    }
+    
+    .glass {
+        position: absolute;
+        margin-top: 50px;
+        width: 2500px;
+        height: 2500px;
+        /* background-color: rebeccapurple; */
+        border-radius: 16px;
+        box-shadow: 0 10px 50px rgba(78, 117, 6, 0.5);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+    
+    .trigger {
+        background-color: #316dc3;
+        width: 1250px;
+        margin-top: 5px !important;
+        margin: auto;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+    
+    @media screen {}
