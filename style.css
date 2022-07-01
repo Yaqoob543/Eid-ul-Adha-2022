@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(/web-bg-main.jpg);
+    background-image: url(/Eid-ul-Adha-2022/web-bg-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .main {
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     background: rgba(255, 255, 255, 0.16);
     border: none;
     outline: none;
@@ -119,13 +119,18 @@ body {
     height: 20px !important;
 }
 
+.sub-day {
+    width: 50px;
+    background-color: rebeccapurple;
+}
+
 .cow {
     /* z-index: -2; */
     position: absolute;
-    width: 3.5in;
+    width: 3.8in;
     /* margin-top: -3.5in; */
     margin-left: -100px !important;
-    margin-top: 1in;
+    margin-top: 1.6in;
 }
 
 
@@ -151,4 +156,11 @@ body {
     height: 10px !important;
     justify-content: center;
     margin-top: 10px;
+}
+
+#gone {
+    height: 220px;
+    font-size: xx-large;
+    visibility: visible;
+    display: block;
 }

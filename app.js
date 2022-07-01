@@ -18,6 +18,8 @@ var mseid3 = eid3.getTime()
 var third = mseid3 - mstoday;
 var final3 = (Math.floor(third / (1000 * 60 * 60 * 24)))
 
+
+
 document.getElementById("date").innerHTML = "Only " + diff2 + " Days are left on Eid-ul-Adha - 10th July 2022";
 document.getElementById("day1").innerHTML = diff2 + " Days are left on 1st Day of Eid-ul-Adha   - 10th July 2022";
 document.getElementById("day2").innerHTML = final + " Days are left on 2nd Day of Eid-ul-Adha  - 11th July 2022";
@@ -57,5 +59,18 @@ if (diff2 < -3) {
 }
 
 
-var eid2 = new Date("July 11, 2022")
-var mseid2 = eid2.getTime()
+
+if (diff2 <= -4) {
+    document.getElementById("date").style.display = "none";
+    document.getElementById("day1").style.display = "none";
+    document.getElementById("day2").style.display = "none";
+    document.getElementById("day3").style.display = "none";
+    document.getElementById("day4").style.display = "none";
+    document.getElementById("trigger").style.display = "none";
+    document.getElementById("gone").style.display = "block"
+
+
+} else {
+
+    document.getElementById("gone").style.display = "none"
+}
